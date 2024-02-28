@@ -1,0 +1,36 @@
+#skillz
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: #9021FB;
+    .skill{
+        width: 20%;
+        height: 200px;
+        align-items: center;
+        border-radius: $bor-rad;
+        box-shadow: 4px 4px 8px 8px rgba(230, 97, 139, 0.7), 6px 6px 10px 10px rgba(230, 97, 139, 0.7);
+        i{
+            font-size: 5rem;
+            text-align: center;
+            width: 100%;
+            padding:10px 0px;
+            color:$text-boja;
+        }
+        p{
+            font-size: 3rem;
+            font-weight:700;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0px;
+            color:$text-boja;
+        }
+    }
+    .skill:hover{
+        transform: scale(1.07);
+        transition-duration: 0.7s;
+    }
+}

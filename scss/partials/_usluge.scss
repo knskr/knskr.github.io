@@ -1,0 +1,71 @@
+#usluge{
+    height:500px;
+    width: 100%;
+    background-color: #E69759;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    form{
+        height:80%;
+        width:70%;
+        text-align: center;
+        color: $text-boja;
+        .fImePrezime{
+            height:40px;
+            width: 70%;
+            margin:10px 20px;
+            text-align: center;
+            border-radius: $bor-rad;
+            border:2px solid #9021FB;
+        }
+        .fEmail{
+            height:40px;
+            width: 70%;
+            margin:20px 20px;
+            text-align: center;
+            border-radius: $bor-rad;
+            border:2px solid #9021FB;
+        }
+        h3{
+            font-weight: 900;
+            font-size: 2rem;
+        }
+        .tekstInfo{
+            height:100px;
+            width:70%;
+            resize:none;
+            border: 2px solid #9021FB;
+            border-radius: $bor-rad;
+            text-align: center;
+            margin-top: 10px;
+
+        }
+        .brisanje{
+            padding:20px 25px;
+            margin:10px 10px;
+            background-color: #9021FB;
+            border:none;
+            border-radius: $bor-rad;
+            color: $text-boja;
+            font-weight: 800;
+        }
+        .slanje{
+            padding:20px 25px;
+            margin:10px 10px;
+            background-color: #9021FB;
+            border:none;
+            border-radius: $bor-rad;
+            color: $text-boja;
+            font-weight: 800;
+        }
+        .brisanje:hover{
+            transform: scale(1.1);
+            transition-duration: .7s;
+        }
+        .slanje:hover{
+            transform: scale(1.1);
+            transition-duration: .7s;
+        }
+    }
+}
