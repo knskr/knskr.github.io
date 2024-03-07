@@ -1,0 +1,6 @@
+@mixin position($justifaj: space-between, $poredjaj: center, $direkcija: row) {
+    display: flex;
+    justify-content: $justifaj;
+    align-items: $poredjaj;
+    flex-direction: $direkcija;
+  }
